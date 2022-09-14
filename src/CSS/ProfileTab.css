@@ -1,0 +1,51 @@
+.profile-tab-container > .profile-tabs{
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top: 5%;
+}
+
+.profile-tabs > p:first-child{
+    margin-left: 0;
+}
+
+.profile-tabs > p{
+    margin: 0;
+    padding: 12px 0;
+    margin-left: 36px;
+    cursor: pointer;
+}
+
+.activeprofiletab{
+    border-bottom: 2px solid black;
+}
+
+.profiletab{
+    border:none;
+}
+
+.profile-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+
+.brief{
+    text-align: center;
+}
+
+.brief > button{
+    font-size: 0.9em;
+    padding: 10px 16px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: #1b8918;
+    color:white;
+}
+
+.profilecontent{
+    width: 100%;
+    height: 100%;
+    display: none;
+}

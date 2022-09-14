@@ -1,0 +1,66 @@
+.left{
+    flex:0.07;
+}
+
+.container{
+    width: 6%;
+    height:100%;
+    position: fixed;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    z-index: 999;
+}
+
+.brand-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:5%;
+    left:25%;
+}
+
+.brand-icon > img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.navigation{
+    position: absolute;
+    top:24%;
+    left:30%;
+}
+
+.navigation > li{
+    list-style: none;
+    margin-top: 36px;
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:90%;
+    left:30%;
+    cursor: pointer;
+}
+
+.profile > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-popup{
+    width:20vw;
+    height:66vh;
+    position:relative;
+    top:20%;
+    margin-left:5%;
+    border-radius:4px;
+    background-color:white;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.profile-popup > p{
+    margin-top: 25px;
+    margin-left: 20px;
+}

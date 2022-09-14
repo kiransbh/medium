@@ -1,0 +1,10 @@
+.notification{
+    width: 54%;
+    position: absolute;
+    left: 21%;
+}
+
+.notification > h1{
+    font-size: 3em;
+    font-family: "bold";
+}

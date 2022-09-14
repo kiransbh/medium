@@ -1,0 +1,27 @@
+.list{
+    width: 54%;
+    position: absolute;
+    left: 21%;
+}
+
+.list > .list-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list > .list-header > h1{
+    font-size: 3em;
+    font-family: "bold";
+}
+
+.list > .list-header > button{
+    font-size: 0.9em;
+    padding: 8px 12px;
+    outline:none;
+    border:none;
+    background: transparent;
+    color:white;
+    background: #1b8918;
+    border-radius: 20px;
+}

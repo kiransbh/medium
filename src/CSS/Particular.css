@@ -1,0 +1,16 @@
+.particular-container{
+    width: 54%;
+    position: absolute;
+    top:-6%;
+    left: 21%;
+}
+
+.particular-post-title > h1{
+    font-size: 3em;
+    font-family: "bold";
+}
+
+.particular-post-content > p{
+    font-size: 1.2em;
+    letter-spacing: 1.15;
+}
